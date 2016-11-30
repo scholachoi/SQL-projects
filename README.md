@@ -1,5 +1,3 @@
-SQL Drill
-
 Create a database schema for a library management system with the following tables. 
 You may choose the data types for each field in each table.
 
