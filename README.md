@@ -1,5 +1,7 @@
-Create a database schema for a library management system with the following tables. 
-You may choose the data types for each field in each table.
+This is a database system for a fictional library. 
+I have written scripts to create the database and tables, insert data, and make queries.
+
+The database schema contains following tables: 
 
 BOOK: BookID, Title, PublisherName
 BOOK_AUTHORS: BookID, AuthorName
@@ -9,9 +11,7 @@ BOOK_LOANS: BookID, BranchID, CardNo, DateOut, DueDate
 LIBRARY_BRANCH: BranchID, BranchName, Address
 BORROWER: CardNo, Name, Address, Phone
 
-Now populate the tables of the database with dummy data. 
-You must make a SQL script that will populate the tables. 
-You may enter in whatever data you like, but must ensure that the following is true:
+SQL scripts populate the tables with dummy data, with the following criteria:
 
 1. There is a book called 'The Lost Tribe'.
 2. There is a library branch called 'Sharpstown' and one called 'Central'.
@@ -24,7 +24,8 @@ You may enter in whatever data you like, but must ensure that the following is t
 8. There are at least 50 loans in the BOOK_LOANS table.
 9. There must be at least one book written by 'Stephen King'.
 
-Now, create SQL queries that will answer the following questions:
+SQL queries answer the following questions:
+
 1. How many copies of the book titled The Lost Tribe are owned by the library branch whose name
    is "Sharpstown"?
 2. How many copies of the book titled The Lost Tribe are owned by each library branch?
@@ -38,5 +39,4 @@ Now, create SQL queries that will answer the following questions:
 7. For each book authored (or co-authored) by "Stephen King", retrieve the title and the number of
    copies owned by the library branch whose name is "Central"
 
-Now, create a stored procedure that will execute one or more of those queries, based on user
-choice.
+Stored procedure will execute one or more of those queries, based on user choice.
