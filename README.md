@@ -3,13 +3,13 @@ I have written scripts to create the database and tables, insert data, and make 
 
 The database schema contains following tables: 
 
-BOOK: BookID, Title, PublisherName
-BOOK_AUTHORS: BookID, AuthorName
-PUBLISHER: Name, Address, Phone
-BOOK_COPIES: BookID, BranchID, No_Of_Copies
-BOOK_LOANS: BookID, BranchID, CardNo, DateOut, DueDate
-LIBRARY_BRANCH: BranchID, BranchName, Address
-BORROWER: CardNo, Name, Address, Phone
+- BOOK: BookID, Title, PublisherName
+- BOOK_AUTHORS: BookID, AuthorName
+- PUBLISHER: Name, Address, Phone
+- BOOK_COPIES: BookID, BranchID, No_Of_Copies
+- BOOK_LOANS: BookID, BranchID, CardNo, DateOut, DueDate
+- LIBRARY_BRANCH: BranchID, BranchName, Address
+- BORROWER: CardNo, Name, Address, Phone
 
 SQL scripts populate the tables with dummy data, with the following criteria:
 
