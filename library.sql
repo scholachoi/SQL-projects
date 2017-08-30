@@ -281,7 +281,7 @@ EXEC Lib.spInsertPublisher 'Sunshine','Palo Alto'
 GO
 
 
---Drill Queries--
+--Queries--
 
 SELECT B.Title, Br.BranchName, C.No_Of_Copies
 FROM Books B JOIN Copies C ON B.BookID=C.BookID
